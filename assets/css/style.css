@@ -1632,3 +1632,18 @@ section {
   0% { transform: rotate(1deg); }
   100% { transform: rotate(-1deg); }
 }
+
+.readmore {
+  display: flex;
+  float: right;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+.readmore i {
+  line-height: 0;
+  margin-left: 4px;
+  font-size: 18px;
+}
